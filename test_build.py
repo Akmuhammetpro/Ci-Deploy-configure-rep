@@ -11,3 +11,6 @@ def test_titles_appear_in_output():
     
     for item in items:
         assert item["title"] in html
+
+def test_broken():
+       assert 1 == 2
